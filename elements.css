@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    border: 2px solid black;
+    width:500px;
+    height: 40px;
+    /* display: inline;  it will change the block line elements in inline elements */
+}
+a{
+    border: 1px solid black;
+    width:100px;
+    margin: 100px;
+    height: 80px;
+    /* display: block;   we can change inline to block line  also */
+  /*these are of no use because inline elements have their own width */
+  /*it will be having margin only in left and right not on top and bottom*/
+}
+h1{
+    margin:100px;
+}

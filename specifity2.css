@@ -1,0 +1,23 @@
+div#table ul.list li{
+    background-color: yellow;
+    color: red;
+}
+
+
+/* style inline >id attribute >class attribute > element attribute (specificity ratio) */
+/* how to calculate specificity  */
+/* __,__,__,__ */
+/* 0,1,1,3 ( elements=div,ul, li) >>113*/
+
+.see {
+    background-color: black;
+    color: white;  /*it will not work*/
+}
+/* 0,0,1,0>>> 10 */
+
+div#table ul.list li.see{
+    background-color: black;
+    color: white;
+}
+
+/* 0,1,2,3>>>123 */

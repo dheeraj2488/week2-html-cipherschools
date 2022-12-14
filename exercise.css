@@ -1,0 +1,29 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+
+h1{
+    border: 10px solid silver;
+    background-color: silver;
+    padding:8px 5px;
+    width: 1000px;
+    text-align: center;
+    margin: 10px auto;
+}
+.first{
+
+    border: 2px solid black;
+    padding:10px ;
+    
+    margin:10px auto;
+    margin-bottom: 20px;
+    width:1000px;
+}
+.second{
+    border: 2px solid black;
+    padding: 10px ;
+    margin: 10px auto;
+    width: 1000px;
+
+}
+div h2{
+    text-transform: uppercase;
+}

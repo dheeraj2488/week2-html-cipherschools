@@ -1,0 +1,32 @@
+header{
+    background-color: silver;
+
+}
+header h1{
+    color: red;
+}
+section.section {
+    background-color: black;
+    color: white;
+}
+section.section2{
+    background-color: aquamarine;
+}
+section.section >h2{
+    color: green;
+}
+section.section2 >h2{
+    color: green;
+}
+section.section h2+p{
+    color: brown;
+}
+li a{
+    color: blue;
+}
+ul+p{
+    color: yellow;
+}
+section.section article h2{
+    color: purple;
+}

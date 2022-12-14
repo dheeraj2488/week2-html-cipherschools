@@ -1,0 +1,10 @@
+a{
+    display: inline-block;
+    /*after doing this we can use other things with inline element as a inline only*/
+    margin: 10px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 50px;
+    height: 80px; /*see here we can use height also*/
+
+}

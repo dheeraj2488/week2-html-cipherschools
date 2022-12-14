@@ -1,0 +1,23 @@
+input[type="text"] {
+    color: red;
+    background-color: aqua;
+}
+input[type="password"]{
+    background-color: blue;
+}
+a[href="https://google.in"]{
+    color: pink;
+}
+a[href *="google"] {
+    color: black;
+}  
+  /* *means it will check every link href including google   */
+a[href^="https:"] {
+    color: chartreuse;
+} 
+/* href^  it will check all links that are starting with  https */
+a[href $=".com"]{
+    background-color: darkred;
+
+}
+/* it checks the end of the link like which links are ending with .com will have darkred color */

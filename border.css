@@ -1,0 +1,17 @@
+div{
+    /* border: 3px solid black; this is short end*/
+    border-width: 3px;
+    border-style: inset;
+    border-color: black;
+}
+h1{
+    border-bottom: 5px solid red;
+    border-top: 4px dotted pink;
+}
+p{
+    border: 10px solid blue;
+    border-radius: 5px;
+}
+span{
+    border:2px solid green;
+}

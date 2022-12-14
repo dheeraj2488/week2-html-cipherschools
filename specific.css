@@ -1,0 +1,11 @@
+/* style inline >id attribute >class attribute > h1 (specificity ratio) */
+h1{
+    color: aqua;
+}
+h1.hello{
+    color: black;
+}
+#how{
+    color: blue !important;
+}
+/* by use of important its specificty becomes highest */
